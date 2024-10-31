@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mile It Easy - Scripture and Tea</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>오늘의 성경 말씀</h1>
+    
+    <audio id="backgroundMusic" loop>
+      <source src="audio/background.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button id="musicToggle" class="btn">음악 켜기</button>
+    
+    <div id="timer" class="timer">3:00</div>
+    
+    <div class="timer-controls">
+      <button id="startTimer" class="btn">시작</button>
+      <button id="pauseTimer" class="btn">일시 정지</button>
+      <button id="resetTimer" class="btn">초기화</button>
+    </div>
+    
+    <div id="scripture" class="scripture">"처음부터 성경 구절이 여기에 표시됩니다."</div>
+    
+    <button id="newScripture" class="btn">다시 뽑기</button>
+  </div>
+
+  <script src="scriptures.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
