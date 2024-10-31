@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mile It Easy - Scripture and Tea</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>MileItEasy</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>오늘의 성경 말씀</h1>
-    
-    <audio id="backgroundMusic" loop>
-      <source src="audio/background.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <button id="musicToggle" class="btn">음악 켜기</button>
-    
-    <div id="timer" class="timer">3:00</div>
-    
-    <div class="timer-controls">
-      <button id="startTimer" class="btn">시작</button>
-      <button id="pauseTimer" class="btn">일시 정지</button>
-      <button id="resetTimer" class="btn">초기화</button>
-    </div>
-    
-    <div id="scripture" class="scripture">"처음부터 성경 구절이 여기에 표시됩니다."</div>
-    
-    <button id="newScripture" class="btn">다시 뽑기</button>
-  </div>
 
-  <script src="scriptures.js"></script>
-  <script src="app.js"></script>
+  <!-- 상단 레이아웃 -->
+  <header>
+    <button id="music-btn">Music</button>
+    <h1>MileItEasy</h1>
+    <button id="timer-btn">Tea Timer</button>
+  </header>
+
+  <!-- 하단 레이아웃 -->
+  <main id="content">
+    <section id="screen-1">
+      <img src="assets/envelope.png" alt="envelope" id="envelope-img">
+    </section>
+    <section id="screen-2" class="hidden">
+      <div class="container">
+        <p id="verse" class="bold"></p>
+        <p id="reference" class="bold"></p>
+        <p id="question"></p>
+      </div>
+      <button id="reload-btn">다시 뽑기</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
