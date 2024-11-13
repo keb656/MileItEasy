@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>오늘의 성경 말씀</h1>
-    
+  <div class="headerNav">
     <audio id="backgroundMusic" loop>
       <source src="audio/background.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
     <button id="musicToggle" class="btn">음악 켜기</button>
+
+    <h1>MileItEasy</h1>
     
     <div id="timer" class="timer">3:00</div>
     
@@ -23,10 +23,12 @@
       <button id="pauseTimer" class="btn">일시 정지</button>
       <button id="resetTimer" class="btn">초기화</button>
     </div>
+  </div>
+
+  <div class="container">
+    <div id="scripture" class="scripture">"성경 구절"</div>
     
-    <div id="scripture" class="scripture">"처음부터 성경 구절이 여기에 표시됩니다."</div>
-    
-    <button id="newScripture" class="btn">다시 뽑기</button>
+    <button id="newScripture" class="btn">다시뽑기</button>
   </div>
 
   <script src="scriptures.js"></script>
