@@ -87,12 +87,10 @@ body {
 
   #container-txt{
     text-align: justify;
-    height: 55vh;
   }
 
   #verse{
-    font-size: larger;
-    padding-bottom: 2vh;
+    font-size: large;
   }
 
   #reference{
@@ -129,7 +127,7 @@ body {
   }
 
   #envelope-img{
-    width: 90%;
+    width: 95%;
   }
 /*
   #reload-btn{    
