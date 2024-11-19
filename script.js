@@ -45,7 +45,7 @@ timerBtn.addEventListener('click', () => {
     timerBtn.innerText = 'TIMER';
     timerBtn.classList.remove('active');
   } else {
-    swal.fire({title:"티 타이머를 시작합니다", text:"3분 후 알려드릴게요", confirmButtonColor: "#F2D888"});
+    swal.fire({title:"티 타이머 시작", text:"3분 후 알려드릴게요", confirmButtonColor: "#F2D888"});
     countdown = 180;
     timerBtn.classList.add('active');
     timer = setInterval(() => {
@@ -55,7 +55,7 @@ timerBtn.addEventListener('click', () => {
       timerBtn.innerText = `${minutes}:${seconds}`; //`${countdown}`
       if (countdown <= 0) {
         clearInterval(timer);
-        swal.fire({title: "티 타이머가 종료되었습니다", text:"차가 맛있게 우려졌어요", icon:"success", confirmButtonColor: "#F2D888"});
+        swal.fire({title: "티 타이머 종료", text:"차가 맛있게 우려졌어요", icon:"success", confirmButtonColor: "#F2D888"});
         timerBtn.innerText = 'TIMER';
         timer = null;
         timerBtn.classList.remove('active');
