@@ -32,6 +32,7 @@ body {
     text-align: center;
   }
   
+ 
   /* 버튼 기본 스타일 */
   button {
     background: #221E1C;
@@ -42,29 +43,29 @@ body {
     border-radius: 30px;
     transition: background 0.3s, transform 0.2s;
     font-weight: bold;
+    width: 90px;
   }
   
   button:hover {
     background: #595959;
   }
   
-  #timer-btn:hover {
-    content: "Reset";
-  }
-  
-  /* 작동 중 배경 스타일 */
   #music-btn.active, #timer-btn.active {
     background: #F2D888;
     color: #595959;
     font-weight: bold;
   }
-  
+
+  #music-btn.active:hover, #timer-btn.active:hover {
+    background: #595959;
+  }
+
   /* 하단 레이아웃 */
   #content {
     text-align: center;
     padding-top: 1em;
-    padding-right: 3em;
-    padding-left: 3em;
+    padding-right: 2em;
+    padding-left: 2em;
   }
   
   #screen-2 {
@@ -81,16 +82,18 @@ body {
   .container {
     background-color: #FFFFFF;
     border-radius: 30px;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
   }
 
   #container-txt{
     text-align: justify;
+    margin-bottom: 40px;
   }
 
   #verse{
     font-size: large;
+    margin-bottom: 30px;
   }
 
   #reference{
