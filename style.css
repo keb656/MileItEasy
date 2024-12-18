@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, sans-serif;
     color: #595959;
     background-color: #3B8DBF;
     font-family: 'GowunBatang-Regular';
@@ -77,6 +76,7 @@ body {
     transition: 0.3s, transform 0.2s;
     font-weight: bold;
     width: 90px;
+    font-family: Arial, sans-serif;
   }
 
   button:hover {
@@ -118,7 +118,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 30px;
     padding: 30px;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
     max-width: 350px;
   }
 
@@ -127,20 +127,31 @@ body {
     margin-bottom: 40px;
   }
 
+  #koeg{
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  #koeg:hover {
+    opacity: 50%;
+  }
+
   #verse{
     font-size: large;
-    margin-bottom: 30px;
   }
 
   #reference{
     font-size: smaller;
-    text-align: right;
+    margin-bottom: 40px;
   }
 
   #container-btn{
     height: 100%;
   }
 
+  .fa-solid {
+    text-align: center;
+  }
 
   .bold {
     font-weight: bold;

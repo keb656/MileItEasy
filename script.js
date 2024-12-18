@@ -16,12 +16,21 @@ const scr2 = document.getElementById('screen-2');
 const verseEl = document.getElementById('verse');
 const refEl = document.getElementById('reference');
 const questionEl = document.getElementById('question');
+const chageLang = document.getElementById('koeg');
 
 let timer;
 let musicPlaying = false;
 let countdown;
 let minutes;
 let seconds;
+
+let lang = 'kr';
+let korData;
+let engData;
+let sourceKorData;
+let sourceEngData;
+let questionKorData;
+let questionEngData;
 
 const backgroundMusic = new Audio('assets/background-music.mp3');
 
@@ -74,6 +83,17 @@ envelopeImg.addEventListener('click', () => {
   scr2.classList.add('fade-in');
 });
 
+chageLang.addEventListener('click', () => {
+    if (lang == 'kr') {
+      korToEng();
+      lang = 'en';
+    } else {
+      engToKor();
+      lang = 'kr';
+    }
+  }
+);
+
 //reloadBtn.addEventListener('click', loadRandomVerse);
 reloadBtn.addEventListener('click', () => {
   scr1.style.display = 'block';
@@ -88,19 +108,21 @@ function getRandomScripture() {
 }
 // 성경 말씀과 질문 로드 기능
 function loadRandomVerse() {
-  const { 말씀, 구절, 질문 } = getRandomScripture();
+  const { 한국어, eng, 출처, src, 질문, qst} = getRandomScripture();
 
-  verseEl.textContent = 말씀;
-  refEl.textContent = 구절;
-  questionEl.textContent = 질문;
+  korData = 한국어;
+  engData = eng;
+  sourceKorData = 출처;
+  sourceEngData = src;
+  questionKorData = 질문;
+  questionEngData = qst;
+  //console.log(korData, engData, sourceKorData, sourceEngData, questionKorData, questionEngData);
+  engToKor();
 
-  verseEl.classList.add('fade-in');
-  refEl.classList.add('fade-in');
-  questionEl.classList.add('fade-in');
  /*
   setTimeout(() => {
-    verseEl.textContent = 말씀;
-    refEl.textContent = 구절;
+    verseEl.textContent = 한국어;
+    refEl.textContent = 출처;
     questionEl.textContent = 질문;
 
     verseEl.classList.remove('fade-out');
@@ -111,4 +133,24 @@ function loadRandomVerse() {
     questionEl.classList.add('fade-in');
   }, 500);
   */
+}
+
+function engToKor(){
+  verseEl.textContent = korData;
+  refEl.textContent = sourceKorData;
+  questionEl.textContent = questionKorData;
+
+  verseEl.classList.add('fade-in');
+  refEl.classList.add('fade-in');
+  questionEl.classList.add('fade-in');
+}
+
+function korToEng(){
+  verseEl.textContent = engData;
+  refEl.textContent = sourceEngData;
+  questionEl.textContent = questionEngData;
+
+  verseEl.classList.add('fade-in');
+  refEl.classList.add('fade-in');
+  questionEl.classList.add('fade-in');
 }
