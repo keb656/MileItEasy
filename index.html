@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 
 <body>
@@ -24,11 +25,14 @@
       <img src="assets/envelope.png" alt="envelope" id="envelope-img" class="wobble-hor-bottom">
     </section>
     <section id="screen-2" class="hidden">
-      <div class="container">
+      <div id="container">
         <div id="container-txt">
-          <p id="koeg" ><i class="fa-solid fa-globe"></i></p>
+          <p id="koeg" >
+            <i id="langBtn" class="fa-solid fa-globe" ></i> 
+            <i id="downBtn" class="fa-solid fa-download" data-html2canvas-ignore="true"></i>
+          </p>
           <p id="verse" class="bold"></p>
-          <p id="reference" class="bold"></p>
+          <p id="reference" class="bold" ></p>
           <p id="question"></p>
         </div>
         <!--

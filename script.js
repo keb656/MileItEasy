@@ -16,7 +16,8 @@ const scr2 = document.getElementById('screen-2');
 const verseEl = document.getElementById('verse');
 const refEl = document.getElementById('reference');
 const questionEl = document.getElementById('question');
-const chageLang = document.getElementById('koeg');
+const chageLang = document.getElementById('langBtn');
+const downloadImg = document.getElementById('downBtn');
 
 let timer;
 let musicPlaying = false;
@@ -94,6 +95,10 @@ chageLang.addEventListener('click', () => {
   }
 );
 
+downloadImg.addEventListener('click', () => {
+  imgDownload();
+});
+
 //reloadBtn.addEventListener('click', loadRandomVerse);
 reloadBtn.addEventListener('click', () => {
   scr1.style.display = 'block';
@@ -116,7 +121,7 @@ function loadRandomVerse() {
   sourceEngData = src;
   questionKorData = 질문;
   questionEngData = qst;
-  //console.log(korData, engData, sourceKorData, sourceEngData, questionKorData, questionEngData);
+  console.log(korData, engData, sourceKorData, sourceEngData, questionKorData, questionEngData);
   engToKor();
 
  /*
@@ -154,3 +159,15 @@ function korToEng(){
   refEl.classList.add('fade-in');
   questionEl.classList.add('fade-in');
 }
+
+
+function imgDownload(){
+
+  html2canvas(document.getElementById("container"), {color:"rgba(0,0,0,0)", foreignObjectRendering: false}).then(function(canvas) {
+    var el = document.createElement("a")
+    el.href = canvas.toDataURL("image/jpeg")
+    el.download = 'mile-it-easy.jpg' //다운로드 할 파일명 설정
+    el.click()
+    })
+
+  }
