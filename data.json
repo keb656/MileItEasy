@@ -246,6 +246,272 @@
       "src": "Philemon 1:3",
       "질문": "요즘 마음의 여유는 1~100중 어느 정도인가요?",
       "qst": "How would you rate your peace of mind on a scale of 1 to 100 recently?"
+    },
+    {
+      "한국어": "여러분 안에서 하나님의 기쁘신 뜻에 따라 결단하게 하시고 행동하게 하시는 분은 하나님이시기 때문입니다.",
+      "eng":"For God is working in you, giving you the desire and the power to do what pleases him.",
+      "출처": "빌립보서 2:13",
+      "src": "Philippians 2:13",
+      "질문": "하나님께서 나의 삶에서 일하고 계심을 믿나요?",
+      "qst": "Do you believe that God is at work in your life?"
+    },
+    {
+      "한국어": "주 안에서 항상 기뻐하십시오. 내가 다시 말합니다. 기뻐하십시오.",
+      "eng":"Always be full of joy in the Lord. I say it again—rejoice!",
+      "출처": "빌립보서 4:4",
+      "src": "Philippians 4:4",
+      "질문": "기뻐할 수 없는 상황에서 기쁜 마음을 유지하기 위해 어떤 노력이 필요한가요?",
+      "qst": "What efforts are needed to maintain joy in situations where it seems impossible to be joyful?"
+    },
+    {
+      "한국어": "아무것도 염려하지 말고 오직 모든 일에 기도와 간구로 여러분이 구할 것을 하나님께 감사함으로 아뢰십시오. 그리하면 모든 생각을 뛰어넘는 하나님의 평강이 그리스도 예수 안에서 여러분의 마음과 생각을 지켜 주실 것입니다.",
+      "eng":"Don’t worry about anything; instead, pray about everything. Tell God what you need, and thank him for all he has done. Then you will experience God’s peace, which exceeds anything we can understand. His peace will guard your hearts and minds as you live in Christ Jesus.",
+      "출처": "빌립보서 4:6-7",
+      "src": "Philippians 4:6-7",
+      "질문": "내가 바라는 것을 이미 받은 것으로 생각하고 감사해본 적이 있나요? 지금 그렇게 해보고 싶은 것은 무엇인가요?",
+      "qst": "Have you ever expressed gratitude by believing you've already received what you desire? What would you like to do that for now?"
+    },
+    {
+      "한국어": "내게 능력 주시는 분 안에서 내가 모든 일을 감당할 수 있습니다.",
+      "eng":"For I can do everything through Christ, who gives me strength.",
+      "출처": "빌립보서 4:13",
+      "src": "Philippians 4:13",
+      "질문": "어떠한 상황 속에서도 하나님 안에 거하면 나의 능력 이상으로 해낼 수 있다는 것을 믿나요?",
+      "qst": "Do you believe that abiding in God enables you to accomplish more than your own abilities, no matter the circumstances?"
+    },
+    {
+        "한국어": "또한 여호와께서는 칼이나 창으로 구원하지 않으신다는 것을 여기 모인 사람들이 다 알게 될 것이다. 전쟁은 여호와께 속한 것이니 그분이 너희 모두를 우리 손에 넘겨주실 것이다.",
+        "eng":"And everyone assembled here will know that the Lord rescues his people, but not with sword and spear. This is the Lord ’s battle, and he will give you to us!",
+        "출처": "사무엘상 17:47",
+        "src":"1 Samuel 17:47",
+        "질문": "생각하지 못한 방법으로 문제가 해결되었던 경험이 있나요?",
+        "qst":"Have you ever experienced a problem being solved in an unexpected way?"
+    },
+    {
+        "한국어": "네 안에 계시는 네 하나님 여호와께서는 승리의 용사시다. 그분께서 너 때문에 무척이나 기뻐하실 것이다. 그분의 사랑 안에서 너를 새롭게 해 주시고 노래를 부르시며 너로 인해 기뻐하실 것이다.",
+        "eng":"For the Lord your God is living among you. He is a mighty savior. He will take delight in you with gladness. With his love, he will calm all your fears. He will rejoice over you with joyful songs.",
+        "출처": "스바냐 3:17",
+        "src":"Zephaniah 3:17",
+        "질문": "하나님은 나의 어떤 모습을 기뻐하실까요?",
+        "qst":"What aspect of you do you think makes God happy?"
+    },
+    {
+        "한국어": "그러나 주께 피하는 사람들은 모두 기뻐하고 기쁨에 겨워 소리치게 하소서. 주께서 그들을 보호해 주소서. 주의 이름을 사랑하는 사람들이 주 안에서 즐거워하게 하소서.",
+        "eng":"Psalms 5:11",
+        "출처": "시편 5:11",
+        "src":"But let all who take refuge in you rejoice; let them sing joyful praises forever. Spread your protection over them, that all who love your name may be filled with joy.",
+        "질문": "하나님의 보호하심을 느낀 적이 있으신가요?",
+        "qst":"Have you ever felt God's protection?"
+    },
+    {
+        "한국어": "내가 여호와를 항상 내 앞에 모셔 둡니다. 주께서 내 오른쪽에 계시니 내가 흔들리지 않을 것입니다. 그러므로 내 마음이 기쁘고 뛸 듯이 즐거워하며 내 몸도 안전할 것입니다.",
+        "eng":"I know the Lord is always with me. I will not be shaken, for he is right beside me. No wonder my heart is glad, and I rejoice. My body rests in safety.",
+        "출처": "시편 16:8-9",
+        "src":"Psalm 16:8-9",
+        "질문": "하나님께서 함께하고 계심을 언제 느끼나요?",
+        "qst":"When do you feel that God is with you?"
+    },
+    {
+        "한국어": "네 마음에 소망을 주시고 네 모든 계획을 이뤄 주시기를 바라노라.",
+        "eng":"May he grant your heart’s desires and make all your plans succeed.",
+        "출처": "시편 20:4",
+        "src":"Psalm 20:4",
+        "질문": "하나님께서 이루어 주시기를 원하는 것은 무엇인가요?",
+        "qst":"What do you wish for God to accomplish in your life?"
+    },
+    {
+        "한국어": "그분이 나를 푸른 목장에 눕히시고 잔잔한 물가로 인도하십니다. 내 영혼을 회복시키시고 당신의 이름을 위해 의로운 길로 인도하십니다.",
+        "eng":"He lets me rest in green meadows; he leads me beside peaceful streams. He renews my strength. He guides me along right paths, bringing honor to his name.",
+        "출처": "시편 23:2-3",
+        "src":"Psalm 23:2-3",
+        "질문": "쉼이 필요할 때 어떻게 에너지를 충전하나요?",
+        "qst":"How do you recharge when you need rest?"
+    },
+    {
+        "한국어": "내 평생에 선하심과 한결같은 사랑이 진실로 나와 함께하실 테니 내가 여호와의 집에서 영원히 살 것입니다.",
+        "eng":"Surely your goodness and unfailing love will pursue me all the days of my life, and I will live in the house of the Lord forever.",
+        "출처": "시편 23:6",
+        "src":"Psalm 23:6",
+        "질문": "하나님께서 선함과 인자하심으로 내 삶에 함께하셨던 경험이 있나요?",
+        "qst":"Can you share an experience where God's goodness and kindness were evident in your life?"
+    },
+    {
+        "한국어": "여호와께서 그 백성들에게 힘을 주시고 그 백성들에게 평안의 복을 주십니다.",
+        "eng":"The Lord gives his people strength. The Lord blesses them with peace.",
+        "출처": "시편 29:11",
+        "src":"Psalm 29:11",
+        "질문": "스트레스 받는 상황에서 주로 어떻게 반응하나요?",
+        "qst":"How do you usually react in stressful situations?"
+    },
+    {
+        "한국어": "주께서 내 슬픔이 춤이 되게 하셨고 내 베옷을 벗기고 기쁨의 옷을 입혀 주셨습니다.",
+        "eng":"You have turned my mourning into joyful dancing. You have taken away my clothes of mourning and clothed me with joy,",
+        "출처": "시편 30:11",
+        "src":"Psalm 30:11",
+        "질문": "힘들었던 시간(상황)을 돌아봤을 때 나에게 유익 또는 성장의 기회였다고 생각되는 것이 있나요?",
+        "qst":"Looking back on difficult times, do you see them as opportunities for growth or benefit?"
+    },
+    {
+        "한국어": "오 성도들이여, 여호와의 선하심을 맛보고 깨달으십시오. 주를 믿는 사람은 복이 있습니다.",
+        "eng":"Taste and see that the Lord is good. Oh, the joys of those who take refuge in him!",
+        "출처": "시편 34:8",
+        "src":"Psalm 34:8",
+        "질문": "어려움이 있을 때 나는 어떤 방법으로 문제를 해결하나요?",
+        "qst":"How do you approach solving problems when faced with challenges?"
+    },
+    {
+        "한국어": "의인들은 고난이 많으나 여호와께서는 그 모든 고난에서 건져 내십니다. 그분이 의인의 모든 뼈를 보호하시리니 그 뼈가 하나도 부러지지 않을 것입니다.",
+        "eng":"The righteous person faces many troubles, but the Lord comes to the rescue each time. For the Lord protects the bones of the righteous; not one of them is broken!",
+        "출처": "시편 34:19-20",
+        "src":"Psalm 34:19-20",
+        "질문": "주변에 도움을 요청하고 싶은 일이 있나요?",
+        "qst":"Is there anything you'd like to ask for help with from those around you?"
+    },
+    {
+        "한국어": "또한 여호와를 기뻐하십시오. 그러면 그분이 당신 마음의 소원을 이루어 주실 것입니다.",
+        "eng":"Take delight in the Lord , and he will give you your heart’s desires.",
+        "출처": "시편 37:4",
+        "src":"Psalm 37:4",
+        "질문": "하나님의 어떠한 성품이 오늘 나에게 기쁨이 되나요?",
+        "qst":"What characteristic of God brings you joy today?"
+    },
+    {
+        "한국어": "고통받을 때 나를 불러라. 내가 너를 건지겠고 네가 나를 영화롭게 할 것이다.",
+        "eng":"Then call on me when you are in trouble, and I will rescue you, and you will give me glory.",
+        "출처": "시편 50:15",
+        "src":"Psalm 50:15",
+        "질문": "힘들 때 가장 먼저 찾는 것이 무엇인가요?",
+        "qst":"What do you turn to first when you're struggling?"
+    },
+    {
+        "한국어": "하나님과 함께라면 우리가 용감해질 수 있습니다. 우리 적들을 짓밟으실 분이 바로 하나님이십니다.",
+        "eng":"With God’s help we will do mighty things, for he will trample down our foes.",
+        "출처": "시편 60:12",
+        "src":"Psalm 60:12",
+        "질문": "얽힌 감정을 풀어야 할 필요가 있다고 느끼는 사람이 있나요?",
+        "qst":"Is there someone you feel the need to resolve tangled emotions with?"
+    },
+    {
+        "한국어": "내가 낙심할 때 땅 끝에서부터 주께 부르짖을 것입니다. 나보다 높이 있는 바위로 나를 인도하소서. 주는 내 피난처이시며 적들로부터 지켜 주는 든든한 망대십니다.",
+        "eng":"From the ends of the earth, I cry to you for help when my heart is overwhelmed. Lead me to the towering rock of safety,for you are my safe refuge, a fortress where my enemies cannot reach me.",
+        "출처": "시편 61:2-3",
+        "src":"Psalm 61:2-3",
+        "질문": "힘든 순간에 나에게 힘이 되었던 말이 있었나요?",
+        "qst":"Have you ever heard words that gave you strength during difficult times?"
+    },
+    {
+        "한국어": "내 구원과 명예가 하나님께 달려 있다. 그분은 든든한 반석이시며 피난처시다.",
+        "eng":"My victory and honor come from God alone. He is my refuge, a rock where no enemy can reach me.",
+        "출처": "시편 62:7",
+        "src":"Psalm 62:7",
+        "질문": "주로 어떤 상황에서 힘들다고 느끼나요?",
+        "qst":"In what situations do you usually feel challenged?"
+
+    },
+    {
+        "한국어": "오 백성들아, 언제든지 그분을 의지하라. 너희 마음을 그분께 쏟아 놓으라. 하나님이 우리 피난처시다. (셀라)",
+        "eng":"O my people, trust in him at all times. Pour out your heart to him, for God is our refuge. Interlude",
+        "출처": "시편 62:8",
+        "src":"Psalm 62:8",
+        "질문": "지금 하나님과 함께 티타임을 가질 수 있다면 솔직하게 털어놓고 싶은 이야기는 무엇인가요?",
+        "qst":"If you could have tea time with God right now, what would you honestly share with Him?"
+    },
+    {
+        "한국어": "하나님께서 우리에게 복을 주실 것이니 땅의 모든 끝도 그분을 두려워할 것입니다.",
+        "eng":"Yes, God will bless us, and people all over the world will fear him.",
+        "출처": "시편 67:7",
+        "src":"Psalm 67:7",
+        "질문": "내가 생각하는 복이란 무엇인가요?",
+        "qst":"What does 'blessing' mean to you?"
+    },
+    {
+        "한국어": "그러나 나는 하나님과 가까이 있는 것이 좋습니다. 내가 주 하나님을 믿어 왔기에 주께서 하신 모든 일들을 다 선포할 수 있는 것입니다.",
+        "eng":"But as for me, how good it is to be near God! I have made the Sovereign Lord my shelter, and I will tell everyone about the wonderful things you do.",
+        "출처": "시편 73:28",
+        "src":"Psalm 73:28",
+        "질문": "내가 가장 영향을 받고 있는 사람은 누구인가요?",
+        "qst":"Who is the person that influences you the most?"
+    },
+    {
+        "한국어": "여호와께서 우리를 위해 큰일을 하셨으니 우리가 정말 기쁩니다.",
+        "eng":"Yes, the Lord has done amazing things for us! What joy!",
+        "출처": "시편 126:3",
+        "src":"Psalm 126:3",
+        "질문": "하나님께서 오늘 나를 위해 하신 일은 무엇이라 생각하나요?",
+        "qst":"What do you think God has done for you today?"
+    },
+    {
+        "한국어": "귀한 씨를 들고 울며 나가는 사람들은 반드시 기뻐하며 단을 거두어 돌아오게 될 것입니다.",
+        "eng":"They weep as they go to plant their seed, but they sing as they return with the harvest.",
+        "출처": "시편 126:6",
+        "src":"Psalm 126:6",
+        "질문": "나의 수고가 반드시 좋은 결과로 돌아올 것을 믿나요?",
+        "qst":"Do you believe that your hard work will inevitably lead to good results?"
+    },
+    {
+        "한국어": "강한 손과 쭉 뻗친 팔로 그렇게 하신 분께 감사하라. 그 인자하심이 영원하시다.",
+        "eng":"He acted with a strong hand and powerful arm. His faithful love endures forever.",
+        "출처": "시편 136:12",
+        "src":"Psalm 136:12",
+        "질문": "가장 최근에 하나님의 손길을 경험한 적은 언제인가요?",
+        "qst":"When was the last time you experienced God's touch?"
+    },
+    {
+        "한국어": "여호와께서 고난당하는 사람들의 사정을 변호하시고 가난한 사람들의 권리와 이익을 보장해 주시는 것을 내가 압니다.",
+        "eng":"But I know the Lord will help those they persecute; he will give justice to the poor.",
+        "출처": "시편 140:12",
+        "src":"Psalm 140:12",
+        "질문": "어떤 상황에서도 내 편이 되어줄 존재가 있나요?",
+        "qst":"Is there someone who would stand by you no matter what?"
+    },
+    {
+        "한국어": "여호와께서는 주를 부르는 모든 사람들, 진심으로 주를 부르는 모든 사람들 가까이에 계십니다.",
+        "eng":"The Lord is close to all who call on him, yes, to all who call on him in truth.",
+        "출처": "시편 145:18",
+        "src":"Psalms 145:18",
+        "질문": "어떤 이야기로도 나를 판단하지 않고 들어줄 수 있는 존재가 있나요?",
+        "qst":"Is there someone who would listen to you without judgment, no matter the story?"
+    },
+    {
+        "한국어": "여호와께서 그 백성들을 기뻐하시니 그분은 겸손한 사람들에게 구원의 관을 씌우실 것이다.",
+        "eng":"For the Lord delights in his people; he crowns the humble with victory.",
+        "출처": "시편 149:4",
+        "src":"Psalm 149:4",
+        "질문": "겸손하다는 것은 무슨 의미일까요?",
+        "qst":"What does being humble mean to you?"
+    },
+    {
+        "한국어": "우리가 기도할 때마다 가까이 다가오시는 우리 하나님 여호와처럼 자신들에게 가까이 다가오는 신이 있는 민족이 어디 있느냐?",
+        "eng":"For what great nation has a god as near to them as the Lord our God is near to us whenever we call on him?",
+        "출처": "신명기 4:7",
+        "src":"Deuteronomy 4:7",
+        "질문": "나에게 가장 관심을 가지고 있는 이는 누구인가요? 나는 그에게 얼마나 관심이 있나요?",
+        "qst":"Who takes the most interest in you, and how much interest do you show in them?"
+    },
+    {
+        "한국어": "만약 네가 네 하나님 여호와께 온전히 순종하고 삼가 내가 오늘 네게 주는 그분의 모든 명령들을 따르면 네 하나님 여호와께서 너를 세상의 모든 민족들보다 높이 세우실 것이다.",
+        "eng":"If you fully obey the Lord your God and carefully keep all his commands that I am giving you today, the Lord your God will set you high above all the nations of the world.",
+        "출처": "신명기 28:1",
+        "src":"Deuteronomy 28:1",
+        "질문": "오늘 내가 지켜야 할 하나님의 명령은 무엇일까요?",
+        "qst":"What is God's command for me to follow today?"
+    },
+    {
+        "한국어": "강하고 담대하라. 그들을 두려워하거나 무서워하지 말라. 그분께서는 너희와 함께 하실 하나님 여호와이시니 그분이 너희를 떠나지도, 버리지도 않으실 것이다.",
+        "eng":"So be strong and courageous! Do not be afraid and do not panic before them. For the Lord your God will personally go ahead of you. He will neither fail you nor abandon you.",
+        "출처": "신명기 31:6",
+        "src":"Deuteronomy 31:6",
+        "질문": "내가 강하고 담대하게 맞서야 하는 것은 무엇인가요?",
+        "qst":"What do I need to face with strength and courage?"
+    },
+    {
+        "한국어": "여러분 가운데 누구든지 지혜가 부족하면 모든 사람에게 후히 주시고 꾸짖지 않으시는 하나님께 구하십시오. 그러면 주실 것입니다.",
+        "eng":"If you need wisdom, ask our generous God, and he will give it to you. He will not rebuke you for asking.",
+        "출처": "야고보서 1:5",
+        "src":"James 1:5",
+        "질문": "꾸짖지 않으시는 하나님께 고백하고 싶은 것은 무엇인가요?",
+        "qst":"What would I like to confess to God, knowing He does not rebuke me?"
     }
+    
 
 ]
