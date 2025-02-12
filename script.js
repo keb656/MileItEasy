@@ -13,11 +13,13 @@ const envelopeImg = document.getElementById('envelope-img');
 const reloadBtn = document.getElementById('reload-btn');
 const scr1 = document.getElementById('screen-1');
 const scr2 = document.getElementById('screen-2');
-const verseEl = document.getElementById('verse');
-const refEl = document.getElementById('reference');
-const questionEl = document.getElementById('question');
+const verseElement = document.getElementById('verse');
+const refElement = document.getElementById('reference');
+const questionElement = document.getElementById('question');
 const chageLang = document.getElementById('langBtn');
 const downloadImg = document.getElementById('downBtn');
+const captureArea = document.getElementById("container");
+const hiddenIcons = document.querySelectorAll(".no-capture"); // 숨길 아이콘 선택
 
 let timer;
 let musicPlaying = false;
@@ -123,51 +125,69 @@ function loadRandomVerse() {
   questionEngData = qst;
   console.log(korData, engData, sourceKorData, sourceEngData, questionKorData, questionEngData);
   engToKor();
-
- /*
-  setTimeout(() => {
-    verseEl.textContent = 한국어;
-    refEl.textContent = 출처;
-    questionEl.textContent = 질문;
-
-    verseEl.classList.remove('fade-out');
-    verseEl.classList.add('fade-in');
-    refEl.classList.remove('fade-out');
-    refEl.classList.add('fade-in');
-    questionEl.classList.remove('fade-out');
-    questionEl.classList.add('fade-in');
-  }, 500);
-  */
 }
 
 function engToKor(){
-  verseEl.textContent = korData;
-  refEl.textContent = sourceKorData;
-  questionEl.textContent = questionKorData;
+  verseElement.textContent = korData;
+  refElement.textContent = sourceKorData;
+  questionElement.textContent = questionKorData;
 
-  verseEl.classList.add('fade-in');
-  refEl.classList.add('fade-in');
-  questionEl.classList.add('fade-in');
+  verseElement.classList.add('fade-in');
+  refElement.classList.add('fade-in');
+  questionElement.classList.add('fade-in');
 }
 
 function korToEng(){
-  verseEl.textContent = engData;
-  refEl.textContent = sourceEngData;
-  questionEl.textContent = questionEngData;
+  
+  verseElement.textContent = engData;
+  refElement.textContent = sourceEngData;
+  questionElement.textContent = questionEngData;
 
-  verseEl.classList.add('fade-in');
-  refEl.classList.add('fade-in');
-  questionEl.classList.add('fade-in');
+  verseElement.classList.add('fade-in');
+  refElement.classList.add('fade-in');
+  questionElement.classList.add('fade-in');
 }
 
 
-function imgDownload(){
+function imgDownload() {
 
-  html2canvas(document.getElementById("container"), {color:"rgba(0,0,0,0)", foreignObjectRendering: false}).then(function(canvas) {
-    var el = document.createElement("a")
-    el.href = canvas.toDataURL("image/jpeg")
-    el.download = 'mile-it-easy.jpg' //다운로드 할 파일명 설정
-    el.click()
-    })
-
+  if (!captureArea) {
+    console.error("❌ 캡처 영역을 찾을 수 없습니다!");
+    return;
   }
+
+  hiddenIcons.forEach(icon => icon.style.opacity = "0"); // 캡처 전에 숨김
+
+  domtoimage.toSvg(captureArea)
+    .then(function (svgDataUrl) {
+      const img = new Image();
+      img.src = svgDataUrl;
+
+      img.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = img.width * 3;
+        canvas.height = img.height * 3;
+        const ctx = canvas.getContext("2d");
+
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        const pngDataUrl = canvas.toDataURL("image/png");
+
+        saveImg(pngDataUrl, "MileItEasy-WordCard.png");
+
+        // ✅ 캡처 후 아이콘 다시 보이게 복구
+        hiddenIcons.forEach(icon => icon.style.opacity = "1");
+      };
+    })
+    .catch(function (error) {
+      console.error("이미지 저장 중 오류 발생:", error);
+    });
+
+  function saveImg(uri, filename) {
+    const link = document.createElement("a");
+    link.href = uri;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+}

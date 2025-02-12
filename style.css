@@ -141,13 +141,18 @@ body {
   }
 
   #verse{
-    font-size: large;
+    font-size: large; 
+    z-index: 1;
+    color: #595959;
   }
 
   #reference{
     font-size: smaller;
     margin-bottom: 40px;
+    z-index: 1;
+    color: #595959;
   }
+
 
   #container-btn{
     height: 100%;
